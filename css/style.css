@@ -33,7 +33,7 @@ html, body  {
 body {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.25fr 1fr;
     /*background: linear-gradient(to bottom, #32c6fc 0%,#ffffff 25%, #FFFFFF 75%, #AAFFAA 100%);*/
     background-image: url("../img/bg.png");
     background-position: center;
@@ -49,12 +49,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-style: italic;
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: bold;
     text-align: center;
 }
